@@ -11,7 +11,12 @@ export function Education() {
           <SectionHeading
             eyebrow="Education"
             title="University of Moratuwa"
-            description="An electronics and telecommunications engineering degree, completed with first-class standing."
+            description={
+              <>
+                An electronics and telecommunications engineering degree, completed with{" "}
+                <strong className="font-semibold text-zinc-900">First-Class</strong> standing.
+              </>
+            }
           />
         </Reveal>
         <Reveal>

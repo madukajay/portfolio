@@ -1,7 +1,9 @@
+import type { ReactNode } from "react"
+
 type SectionHeadingProps = {
   eyebrow: string
   title: string
-  description?: string
+  description?: ReactNode
   tone?: "light" | "dark"
 }
 
