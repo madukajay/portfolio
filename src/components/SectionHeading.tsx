@@ -21,14 +21,12 @@ export function SectionHeading({
         {eyebrow}
       </p>
       <h2
-        className={`max-w-3xl text-3xl font-bold tracking-tight sm:text-4xl ${dark ? "text-white" : "text-zinc-900"} ${description ? "mb-4" : ""}`}
+        className={`text-3xl font-bold tracking-tight sm:text-4xl ${dark ? "text-white" : "text-zinc-900"} ${description ? "mb-4" : ""}`}
       >
         {title}
       </h2>
       {description ? (
-        <p
-          className={`max-w-xl text-base leading-relaxed ${dark ? "text-zinc-300" : "text-zinc-600"}`}
-        >
+        <p className={`text-base leading-relaxed ${dark ? "text-zinc-300" : "text-zinc-600"}`}>
           {description}
         </p>
       ) : null}
