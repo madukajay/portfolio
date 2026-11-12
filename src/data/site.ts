@@ -19,8 +19,8 @@ export const site = {
   linkedinUrl: "https://www.linkedin.com/in/maduka-jay",
   githubUrl: "",
   githubUsername: "",
-  resumeUrl: "/Maduka-Jayasinghe-Resume.pdf",
-  /** Public path of a portrait, for example "/portrait.jpg". Leave empty for the placeholder. */
+  resumeUrl: `${import.meta.env.BASE_URL}Maduka-Jayasinghe-Resume.pdf`,
+  /** Public path of a portrait, for example `${import.meta.env.BASE_URL}portrait.jpg`. Leave empty for the placeholder. */
   portrait: "",
   introduction:
     "I build software for network visibility and control, from C++ systems on Linux to the services and interfaces around them.",

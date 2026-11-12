@@ -23,3 +23,11 @@ npm run dev
 ## Content
 
 Edit personal details, experience, projects, and links in [`src/data/site.ts`](src/data/site.ts). Leave a string empty when a link or image is not ready yet.
+
+## Deploy (GitHub Pages)
+
+Pushing to `main` builds and deploys via GitHub Actions.
+
+In the repo: **Settings → Pages → Build and deployment → Source → GitHub Actions**.
+
+Site URL: https://madukajay.github.io/portfolio/
