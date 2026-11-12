@@ -13,9 +13,10 @@ const socials = [
 export function Hero() {
   return (
     <section id="home" className="relative flex min-h-dvh items-center overflow-hidden bg-zinc-950 pb-16 lg:h-dvh lg:pb-0">
-      <div className="absolute inset-y-0 right-0 hidden w-1/2 overflow-hidden lg:block">
+      {/* Anchored right on large screens; widens leftward on smaller viewports instead of hiding */}
+      <div className="absolute inset-y-0 right-0 w-full overflow-hidden sm:w-4/5 md:w-2/3 lg:w-1/2">
         <Portrait className="h-full w-full" />
-        <div className="absolute inset-0 bg-gradient-to-r from-zinc-950 from-0% via-zinc-950/45 via-58% to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-zinc-950 from-0% via-zinc-950/70 via-45% to-zinc-950/20 sm:via-zinc-950/50 sm:via-50% sm:to-transparent lg:via-zinc-950/45 lg:via-58%" />
       </div>
 
       <div className="relative z-10 w-full pt-24 lg:pt-0">

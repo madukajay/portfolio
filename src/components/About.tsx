@@ -1,9 +1,9 @@
-import { Gauge, Network, Workflow } from "lucide-react"
+import { Cpu, Network, Workflow } from "lucide-react"
 import { about } from "../data/site"
 import { Portrait } from "./Portrait"
 import { Reveal } from "./Reveal"
 
-const icons = [Network, Gauge, Workflow]
+const icons = [Cpu, Network, Workflow]
 
 export function About() {
   return (

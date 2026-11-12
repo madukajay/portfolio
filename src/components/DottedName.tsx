@@ -12,7 +12,7 @@ export function DottedName({
 
   return (
     <>
-      {name.slice(0, index)}<span className="relative inline-block">i<span aria-hidden="true" className={`pointer-events-none absolute top-[0.12em] left-1/2 h-[0.22em] w-[0.22em] -translate-x-1/2 rounded-full ${dotClassName}`} /></span>{name.slice(index + 1)}
+      {name.slice(0, index)}<span className="relative inline-block">i<span aria-hidden="true" className={`pointer-events-none absolute top-[0.02em] left-1/2 h-[0.22em] w-[0.22em] -translate-x-1/2 rounded-full ${dotClassName}`} /></span>{name.slice(index + 1)}
     </>
   )
 }

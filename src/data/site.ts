@@ -46,23 +46,23 @@ export const navItems = [
 
 export const about = {
   eyebrow: "About me",
-  title: "Engineering for networks you can see and control",
+  title: "High-performance systems software, built close to the machine",
   paragraphs: [
-    "I am a senior systems software engineer with an honours degree in electronic and telecommunication engineering from the University of Moratuwa. For more than five years I have worked at Paraqum Technologies on software for network visibility, control, and management.",
-    "The work sits close to the system: C and C++ on Linux, SNMP and multi-protocol discovery, and high-throughput packet processing. I also build the Node.js services and React interfaces in front of those systems, and I take on independent software when a business problem needs a direct technical solution.",
+    "I am a senior systems software engineer with an honours degree in electronic and telecommunication engineering from the University of Moratuwa. I design and build high-performance applications in C and C++ on Linux—wherever throughput, latency, and careful use of the machine matter.",
+    "My professional experience so far has been at Paraqum Technologies, applying that systems work to network visibility, control, and management: SNMP and multi-protocol discovery, high-throughput packet processing, and the Node.js services and React interfaces around them. I also take on independent software when a business problem needs a direct technical solution.",
   ],
   traits: [
     {
-      title: "Network visibility",
-      text: "Monitoring, discovery, and telemetry across multi-vendor networks.",
+      title: "High-performance systems",
+      text: "C and C++ on Linux, built for throughput, latency, and careful use of the machine.",
     },
     {
-      title: "Systems performance",
-      text: "C and C++ on Linux, built for throughput and careful use of the machine.",
+      title: "Network systems experience",
+      text: "At Paraqum: monitoring, discovery, telemetry, and packet processing across multi-vendor networks.",
     },
     {
       title: "End-to-end delivery",
-      text: "From protocol handling to APIs and the interfaces operators use.",
+      text: "From low-level engines to APIs and the interfaces people actually use.",
     },
   ],
 } as const
