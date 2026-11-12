@@ -21,7 +21,7 @@ export const site = {
   githubUsername: "madukajay",
   resumeUrl: `${import.meta.env.BASE_URL}Maduka-Jayasinghe-Resume.pdf`,
   /** Public path of a portrait, for example `${import.meta.env.BASE_URL}portrait.jpg`. Leave empty for the placeholder. */
-  portrait: "",
+  portrait: `${import.meta.env.BASE_URL}profile-photo.jpeg`,
   introduction:
     "I build mission-critical systems software in C++, and I am moving into AI systems—bringing deep systems experience to the models, services, and infrastructure around them.",
   seo: {

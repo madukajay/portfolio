@@ -22,11 +22,13 @@ export function Experience() {
             {experience.map((role, index) => (
               <Reveal key={role.period} as="li" delayMs={index * 40}>
                 <div className="relative flex gap-4 sm:gap-6">
-                  <div
-                    className="relative z-10 flex h-14 w-14 shrink-0 items-center justify-center rounded-[5px] border-2 border-emerald-500 bg-white text-sm font-bold text-emerald-700 shadow-sm sm:h-[70px] sm:w-[70px]"
-                    aria-hidden="true"
-                  >
-                    P
+                  <div className="relative z-10 flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-[5px] border-2 border-emerald-500 bg-white shadow-sm sm:h-[70px] sm:w-[70px]">
+                    <img
+                      src={`${import.meta.env.BASE_URL}paraqum-logo.png`}
+                      alt=""
+                      className="h-full w-full object-contain p-1.5"
+                      aria-hidden="true"
+                    />
                   </div>
                   <div className="min-w-0 flex-1 pb-2">
                     <p className={`text-sm font-semibold ${role.current ? "text-emerald-600" : "text-zinc-500"}`}>

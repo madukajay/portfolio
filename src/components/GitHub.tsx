@@ -53,7 +53,7 @@ export function GitHub() {
             eyebrow="GitHub"
             title="Open source"
             tone="dark"
-            description="Public profile figures and repositories, loaded from GitHub when a username is set. Nothing here is estimated."
+            description="Public profile figures and repositories from GitHub. Much of my strongest work is private—reach out via Contact if you want to discuss it."
           />
         </Reveal>
 
@@ -109,6 +109,13 @@ export function GitHub() {
               </dl>
               <p className="mt-4 text-xs text-zinc-500">
                 Stars are the total across the public repositories returned for @{username}.
+              </p>
+              <p className="mt-6 max-w-md text-sm leading-relaxed text-zinc-300">
+                My best work lives in private repositories.{" "}
+                <a href="#contact" className="font-medium text-emerald-400 transition-colors hover:text-emerald-300">
+                  Contact me
+                </a>{" "}
+                if you would like to hear more about it.
               </p>
             </Reveal>
             <Reveal delayMs={80}>
