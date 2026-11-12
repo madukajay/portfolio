@@ -2,7 +2,6 @@ import { Menu, X } from "lucide-react"
 import { useEffect, useState } from "react"
 import { navItems, site } from "../data/site"
 import { cn } from "../lib/cn"
-import { DottedName } from "./DottedName"
 import { useActiveSection } from "../hooks/useActiveSection"
 
 export function Navbar() {
@@ -43,7 +42,7 @@ export function Navbar() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         <a href="#home" className="text-xl font-bold tracking-tight text-white" aria-label="Go to home">
-          <DottedName name={site.name} />
+          {site.name}
         </a>
 
         <nav className="hidden items-center gap-x-5 xl:gap-x-7 lg:flex" aria-label="Primary">
