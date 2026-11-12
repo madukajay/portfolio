@@ -3,7 +3,9 @@ import react from "@vitejs/plugin-react"
 import { defineConfig } from "vite"
 
 export default defineConfig({
-  // Custom domain https://madukajay.is-a.dev serves from the site root
-  base: "/",
+  // Relative base works for both:
+  // - https://madukajay.github.io/portfolio/
+  // - https://madukajay.is-a.dev (custom domain)
+  base: "./",
   plugins: [react(), tailwindcss()],
 })

@@ -32,7 +32,8 @@ Pushing to `main` builds and deploys to GitHub Pages via Actions.
 2. Register `madukajay.is-a.dev` (see below).
 3. After that PR is merged: **Settings → Pages → Custom domain** → `madukajay.is-a.dev` → check **Enforce HTTPS**.
 
-Live site: https://madukajay.is-a.dev
+GitHub Pages: https://madukajay.github.io/portfolio/  
+Custom domain (after is-a.dev PR + Pages custom domain): https://madukajay.is-a.dev
 
 ### Register the is-a.dev subdomain
 
