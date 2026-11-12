@@ -17,13 +17,13 @@ export const site = {
   phone: "+94 71 346 6099",
   phoneHref: "tel:+94713466099",
   linkedinUrl: "https://www.linkedin.com/in/maduka-jay",
-  githubUrl: "",
-  githubUsername: "",
+  githubUrl: "https://github.com/madukajay",
+  githubUsername: "madukajay",
   resumeUrl: `${import.meta.env.BASE_URL}Maduka-Jayasinghe-Resume.pdf`,
   /** Public path of a portrait, for example `${import.meta.env.BASE_URL}portrait.jpg`. Leave empty for the placeholder. */
   portrait: "",
   introduction:
-    "I build software for network visibility and control, from C++ systems on Linux to the services and interfaces around them.",
+    "I build mission-critical systems software in C++, and I am moving into AI systems—bringing deep systems experience to the models, services, and infrastructure around them.",
   seo: {
     title: "Maduka Jayasinghe | Senior Systems Software Engineer",
     description:
